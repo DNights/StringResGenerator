@@ -2,11 +2,6 @@
 android, ios string res auto generator
 
 -----
-
-## Google Drive API Setting menual
-- https://developers.google.com/drive/api/v3/quickstart/python
-- https://developers.google.com/workspace/guides/create-project
-
 ### step1 Install pip
 ### step2 Install Google Library
 ### step3 Create access credentials
@@ -16,6 +11,10 @@ android, ios string res auto generator
 ### step7 Make string_generate_templat.xlsx at google drive 
 ### step8 input google drive xlsx key in download_google_drive.py file_id 
 ### step9 Run android.sh or ios.sh
+
+### Google Drive API Setting menual
+- https://developers.google.com/drive/api/v3/quickstart/python
+- https://developers.google.com/workspace/guides/create-project
 
 ### Install pip
 - https://pypi.org/project/pip/
@@ -28,10 +27,12 @@ android, ios string res auto generator
 
 ### Install openpyxl
 - https://openpyxl.readthedocs.io/en/stable/
+
 ``` pip install openpyxl ```
 
 ### Install yattag
 - https://www.yattag.org/
+
 ``` pip install yattag ```
 
 -----
