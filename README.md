@@ -1,20 +1,9 @@
 # StringResGenerator
-android, ios string res auto generator
+This project automatically creates string resources for Android and ios by reading excel files in Google Drive.
 
------
-### step1 Install pip
-### step2 Install Google Library
-### step3 Create access credentials
-### step4 Download Json Key and api service aceept
-### step5 Install openpyxl
-### step6 Install yattag (used android)
-### step7 Make string_generate_templat.xlsx at google drive 
-### step8 input google drive xlsx key in download_google_drive.py file_id 
-### step9 Run android.sh or ios.sh
 
-### Google Drive API Setting menual
-- https://developers.google.com/drive/api/v3/quickstart/python
-- https://developers.google.com/workspace/guides/create-project
+
+## Installation requirements
 
 ### Install pip
 - https://pypi.org/project/pip/
@@ -22,18 +11,45 @@ android, ios string res auto generator
 ### Install Google Library
 ```pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib```
 
-### Create access credentials 
-- https://developers.google.com/workspace/guides/create-credentials
-
 ### Install openpyxl
 - https://openpyxl.readthedocs.io/en/stable/
 
 ``` pip install openpyxl ```
 
-### Install yattag
+### Install yattag (only used android)
 - https://www.yattag.org/
 
 ``` pip install yattag ```
+
+-----
+
+## Steps to install and run this project
+
+- Step1. Install pip
+  - https://pypi.org/project/pip/
+- Step2. Install Google Library
+  - ```pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib```
+- Step3. Create access credentials
+  - https://developers.google.com/workspace/guides/create-credentials
+- Step4. Download Json Key file and call api service aceept 
+- Step5. Install openpyxl
+  - ``` pip install openpyxl ```
+- Step6. Install yattag (only used android)
+  - ``` pip install yattag ``` 
+- Step7. Make file `string_generate_templat.xlsx` at your google drive 
+- Step8. Input google drive xlsx key in `download_google_drive.py` file_id variable
+- Step9. Run `android.sh` or `ios.sh`
+
+-----
+
+### Google Drive API Setting menual
+- https://developers.google.com/drive/api/v3/quickstart/python
+- https://developers.google.com/workspace/guides/create-project
+
+
+### Create access credentials 
+- https://developers.google.com/workspace/guides/create-credentials
+
 
 -----
 MIT License
